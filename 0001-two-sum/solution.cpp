@@ -13,6 +13,5 @@ std::vector<int> Solution::twoSum(std::vector<int> &nums, int target)
         }
         hash[nums[i]] = i;
     }
-
     return {};
 }
